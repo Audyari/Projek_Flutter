@@ -63,7 +63,8 @@ flutter:
 # Suggested code may be subject to a license. Learn more: ~LicenseLog:1791845435.
 # Suggested code may be subject to a license. Learn more: ~LicenseLog:1121074753.
     - assets/images/gambar2.png
-    
+    - assets/images/background.png
+    - assets/images/Vector.png
   
   # - images/a_dot-assets/
   
