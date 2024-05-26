@@ -69,6 +69,63 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
+            const SizedBox(height: 30),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.call,
+                        color: Colors.blue,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        'CALL',
+                        style: TextStyle(
+                          fontSize: 14,
+                          height: 1.5,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.route,
+                        color: Colors.blue,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        'ROUTE',
+                        style: TextStyle(
+                          fontSize: 14,
+                          height: 1.5,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.share,
+                        color: Colors.blue,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        'Review',
+                        style: TextStyle(
+                          fontSize: 14,
+                          height: 1.5,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
